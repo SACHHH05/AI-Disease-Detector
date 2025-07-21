@@ -8,7 +8,7 @@ from xgboost import XGBClassifier
 from sklearn.metrics import accuracy_score, classification_report
 import joblib
 
-zip_path = r"C:\Users\rames\OneDrive\AD\mlmini\archive.zip"
+zip_path = r"dataset"
 
 with zipfile.ZipFile(zip_path, 'r') as zip_ref:
     zip_ref.extractall("dataset")
